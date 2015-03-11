@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C2987F1AACCE38006A14FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2987E1AACCE38006A14FF /* AppDelegate.swift */; };
+		48C298821AACCE38006A14FF /* VinylFind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48C298801AACCE38006A14FF /* VinylFind.xcdatamodeld */; };
+		48C298841AACCE38006A14FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C298831AACCE38006A14FF /* ViewController.swift */; };
+		48C298871AACCE38006A14FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C298851AACCE38006A14FF /* Main.storyboard */; };
+		48C298891AACCE38006A14FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C298881AACCE38006A14FF /* Images.xcassets */; };
+		48C2988C1AACCE38006A14FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C2988A1AACCE38006A14FF /* LaunchScreen.xib */; };
+		48C298981AACCE38006A14FF /* VinylFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C298971AACCE38006A14FF /* VinylFindTests.swift */; };
+		48C298A21AACE032006A14FF /* VFCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C298A11AACE032006A14FF /* VFCamera.swift */; };
+		48C298A41AAE09C8006A14FF /* VFSpotifyPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C298A31AAE09C8006A14FF /* VFSpotifyPreview.swift */; };
+		48C298A61AAE5F95006A14FF /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C298A51AAE5F95006A14FF /* Album.swift */; };
+		48C298A81AAF0E3F006A14FF /* VF+NSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C298A71AAF0E3F006A14FF /* VF+NSString.swift */; };
+		48C298AA1AAF1990006A14FF /* VFAlbumPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C298A91AAF1990006A14FF /* VFAlbumPreview.swift */; };
+		48C298AC1AAF7C4C006A14FF /* VFRecordCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C298AB1AAF7C4C006A14FF /* VFRecordCollectionView.swift */; };
+		48CECF5F1AAF8C3B001D6DC7 /* VFAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CECF5E1AAF8C3B001D6DC7 /* VFAlbumCell.swift */; };
+		77C1837BCC2BA78BCC888CD2 /* Pods_VinylFind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C5756013E3AAF2972FE96A /* Pods_VinylFind.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C298921AACCE38006A14FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C298711AACCE38006A14FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C298781AACCE38006A14FF;
+			remoteInfo = VinylFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		102C0E5740E6946CC8933CFB /* Pods-VinylFind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylFind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VinylFind/Pods-VinylFind.debug.xcconfig"; sourceTree = "<group>"; };
+		48C298791AACCE38006A14FF /* VinylFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinylFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C2987D1AACCE38006A14FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C2987E1AACCE38006A14FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48C298811AACCE38006A14FF /* VinylFind.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VinylFind.xcdatamodel; sourceTree = "<group>"; };
+		48C298831AACCE38006A14FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48C298861AACCE38006A14FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48C298881AACCE38006A14FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48C2988B1AACCE38006A14FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		48C298911AACCE38006A14FF /* VinylFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VinylFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C298961AACCE38006A14FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C298971AACCE38006A14FF /* VinylFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinylFindTests.swift; sourceTree = "<group>"; };
+		48C298A11AACE032006A14FF /* VFCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFCamera.swift; sourceTree = "<group>"; };
+		48C298A31AAE09C8006A14FF /* VFSpotifyPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFSpotifyPreview.swift; sourceTree = "<group>"; };
+		48C298A51AAE5F95006A14FF /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		48C298A71AAF0E3F006A14FF /* VF+NSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VF+NSString.swift"; sourceTree = "<group>"; };
+		48C298A91AAF1990006A14FF /* VFAlbumPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFAlbumPreview.swift; sourceTree = "<group>"; };
+		48C298AB1AAF7C4C006A14FF /* VFRecordCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFRecordCollectionView.swift; sourceTree = "<group>"; };
+		48CECF5E1AAF8C3B001D6DC7 /* VFAlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFAlbumCell.swift; sourceTree = "<group>"; };
+		C9C5756013E3AAF2972FE96A /* Pods_VinylFind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VinylFind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F364ADD774AB282A90C080C3 /* Pods-VinylFind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinylFind.release.xcconfig"; path = "Pods/Target Support Files/Pods-VinylFind/Pods-VinylFind.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C298761AACCE38006A14FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C1837BCC2BA78BCC888CD2 /* Pods_VinylFind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C2988E1AACCE38006A14FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C298701AACCE38006A14FF = {
+			isa = PBXGroup;
+			children = (
+				48C2987B1AACCE38006A14FF /* VinylFind */,
+				48C298941AACCE38006A14FF /* VinylFindTests */,
+				48C2987A1AACCE38006A14FF /* Products */,
+				FCA3B45F9FF617D1DD5D5C79 /* Pods */,
+				F932A03C8533D3E07E1DB76B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48C2987A1AACCE38006A14FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C298791AACCE38006A14FF /* VinylFind.app */,
+				48C298911AACCE38006A14FF /* VinylFindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C2987B1AACCE38006A14FF /* VinylFind */ = {
+			isa = PBXGroup;
+			children = (
+				48C2987E1AACCE38006A14FF /* AppDelegate.swift */,
+				48C298831AACCE38006A14FF /* ViewController.swift */,
+				48C298851AACCE38006A14FF /* Main.storyboard */,
+				48C298A31AAE09C8006A14FF /* VFSpotifyPreview.swift */,
+				48C298A91AAF1990006A14FF /* VFAlbumPreview.swift */,
+				48C298A51AAE5F95006A14FF /* Album.swift */,
+				48C298AB1AAF7C4C006A14FF /* VFRecordCollectionView.swift */,
+				48CECF5E1AAF8C3B001D6DC7 /* VFAlbumCell.swift */,
+				48C298881AACCE38006A14FF /* Images.xcassets */,
+				48C2988A1AACCE38006A14FF /* LaunchScreen.xib */,
+				48C298801AACCE38006A14FF /* VinylFind.xcdatamodeld */,
+				48C2987C1AACCE38006A14FF /* Supporting Files */,
+				48C298A11AACE032006A14FF /* VFCamera.swift */,
+				48C298A71AAF0E3F006A14FF /* VF+NSString.swift */,
+			);
+			path = VinylFind;
+			sourceTree = "<group>";
+		};
+		48C2987C1AACCE38006A14FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C2987D1AACCE38006A14FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48C298941AACCE38006A14FF /* VinylFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C298971AACCE38006A14FF /* VinylFindTests.swift */,
+				48C298951AACCE38006A14FF /* Supporting Files */,
+			);
+			path = VinylFindTests;
+			sourceTree = "<group>";
+		};
+		48C298951AACCE38006A14FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48C298961AACCE38006A14FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F932A03C8533D3E07E1DB76B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C5756013E3AAF2972FE96A /* Pods_VinylFind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCA3B45F9FF617D1DD5D5C79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				102C0E5740E6946CC8933CFB /* Pods-VinylFind.debug.xcconfig */,
+				F364ADD774AB282A90C080C3 /* Pods-VinylFind.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C298781AACCE38006A14FF /* VinylFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C2989B1AACCE38006A14FF /* Build configuration list for PBXNativeTarget "VinylFind" */;
+			buildPhases = (
+				3504E54C5A2489A2C2DEABA9 /* Check Pods Manifest.lock */,
+				48C298751AACCE38006A14FF /* Sources */,
+				48C298761AACCE38006A14FF /* Frameworks */,
+				48C298771AACCE38006A14FF /* Resources */,
+				2E7B64518A51D3A071FAFBF9 /* Embed Pods Frameworks */,
+				BA91485B2E8AC26327691072 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VinylFind;
+			productName = VinylFind;
+			productReference = 48C298791AACCE38006A14FF /* VinylFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C298901AACCE38006A14FF /* VinylFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C2989E1AACCE38006A14FF /* Build configuration list for PBXNativeTarget "VinylFindTests" */;
+			buildPhases = (
+				48C2988D1AACCE38006A14FF /* Sources */,
+				48C2988E1AACCE38006A14FF /* Frameworks */,
+				48C2988F1AACCE38006A14FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C298931AACCE38006A14FF /* PBXTargetDependency */,
+			);
+			name = VinylFindTests;
+			productName = VinylFindTests;
+			productReference = 48C298911AACCE38006A14FF /* VinylFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C298711AACCE38006A14FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Thomas Abend";
+				TargetAttributes = {
+					48C298781AACCE38006A14FF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					48C298901AACCE38006A14FF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 48C298781AACCE38006A14FF;
+					};
+				};
+			};
+			buildConfigurationList = 48C298741AACCE38006A14FF /* Build configuration list for PBXProject "VinylFind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48C298701AACCE38006A14FF;
+			productRefGroup = 48C2987A1AACCE38006A14FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C298781AACCE38006A14FF /* VinylFind */,
+				48C298901AACCE38006A14FF /* VinylFindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C298771AACCE38006A14FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C298871AACCE38006A14FF /* Main.storyboard in Resources */,
+				48C2988C1AACCE38006A14FF /* LaunchScreen.xib in Resources */,
+				48C298891AACCE38006A14FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C2988F1AACCE38006A14FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E7B64518A51D3A071FAFBF9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VinylFind/Pods-VinylFind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3504E54C5A2489A2C2DEABA9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA91485B2E8AC26327691072 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VinylFind/Pods-VinylFind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C298751AACCE38006A14FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C298841AACCE38006A14FF /* ViewController.swift in Sources */,
+				48C298A81AAF0E3F006A14FF /* VF+NSString.swift in Sources */,
+				48C298AC1AAF7C4C006A14FF /* VFRecordCollectionView.swift in Sources */,
+				48C298A41AAE09C8006A14FF /* VFSpotifyPreview.swift in Sources */,
+				48C2987F1AACCE38006A14FF /* AppDelegate.swift in Sources */,
+				48C298A21AACE032006A14FF /* VFCamera.swift in Sources */,
+				48C298821AACCE38006A14FF /* VinylFind.xcdatamodeld in Sources */,
+				48C298AA1AAF1990006A14FF /* VFAlbumPreview.swift in Sources */,
+				48C298A61AAE5F95006A14FF /* Album.swift in Sources */,
+				48CECF5F1AAF8C3B001D6DC7 /* VFAlbumCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C2988D1AACCE38006A14FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C298981AACCE38006A14FF /* VinylFindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C298931AACCE38006A14FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C298781AACCE38006A14FF /* VinylFind */;
+			targetProxy = 48C298921AACCE38006A14FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48C298851AACCE38006A14FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C298861AACCE38006A14FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48C2988A1AACCE38006A14FF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C2988B1AACCE38006A14FF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C298991AACCE38006A14FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C2989A1AACCE38006A14FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C2989C1AACCE38006A14FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102C0E5740E6946CC8933CFB /* Pods-VinylFind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VinylFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48C2989D1AACCE38006A14FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F364ADD774AB282A90C080C3 /* Pods-VinylFind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VinylFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48C2989F1AACCE38006A14FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VinylFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinylFind.app/VinylFind";
+			};
+			name = Debug;
+		};
+		48C298A01AACCE38006A14FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VinylFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VinylFind.app/VinylFind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C298741AACCE38006A14FF /* Build configuration list for PBXProject "VinylFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C298991AACCE38006A14FF /* Debug */,
+				48C2989A1AACCE38006A14FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C2989B1AACCE38006A14FF /* Build configuration list for PBXNativeTarget "VinylFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C2989C1AACCE38006A14FF /* Debug */,
+				48C2989D1AACCE38006A14FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C2989E1AACCE38006A14FF /* Build configuration list for PBXNativeTarget "VinylFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C2989F1AACCE38006A14FF /* Debug */,
+				48C298A01AACCE38006A14FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48C298801AACCE38006A14FF /* VinylFind.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48C298811AACCE38006A14FF /* VinylFind.xcdatamodel */,
+			);
+			currentVersion = 48C298811AACCE38006A14FF /* VinylFind.xcdatamodel */;
+			path = VinylFind.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48C298711AACCE38006A14FF /* Project object */;
+}

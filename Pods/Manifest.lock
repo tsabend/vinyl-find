@@ -1,0 +1,29 @@
+PODS:
+  - JSONJoy-Swift (0.9.1)
+  - SwiftHTTP (0.9.1)
+
+DEPENDENCIES:
+  - JSONJoy-Swift (from `https://github.com/daltoniam/JSONJoy-Swift.git`, tag `0.9.1`)
+  - SwiftHTTP (from `https://github.com/daltoniam/SwiftHTTP.git`, tag `0.9.1`)
+
+EXTERNAL SOURCES:
+  JSONJoy-Swift:
+    :git: https://github.com/daltoniam/JSONJoy-Swift.git
+    :tag: 0.9.1
+  SwiftHTTP:
+    :git: https://github.com/daltoniam/SwiftHTTP.git
+    :tag: 0.9.1
+
+CHECKOUT OPTIONS:
+  JSONJoy-Swift:
+    :git: https://github.com/daltoniam/JSONJoy-Swift.git
+    :tag: 0.9.1
+  SwiftHTTP:
+    :git: https://github.com/daltoniam/SwiftHTTP.git
+    :tag: 0.9.1
+
+SPEC CHECKSUMS:
+  JSONJoy-Swift: 97441093ca05590e0fd2c860734e9528efc96fdc
+  SwiftHTTP: 7d658b83ab75bd5206fbff9f74c04d6fb7de4648
+
+COCOAPODS: 0.36.0.rc.1
